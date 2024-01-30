@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+numpy = "^1.26.3"
+networkx = {version = "^3.2.1", extras = ["plot"]}
+pyvis = {version = "^0.3.2", extras = ["plot"]}
 
 
 [build-system]
